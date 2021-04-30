@@ -1,10 +1,10 @@
 import cv2
   
-img = cv2.imread('C:/Users/KIIT/Downloads/SkinColor/barackobamab1920-588435-640x360.jpg') #Read the input image
+img = cv2.imread('C:/Users------XYZ.jpg') #Read the input image
   
 # Convert into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-face_cascade = cv2.CascadeClassifier('C:/Users/KIIT/Downloads/SkinColor/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('C:/Users/-----/haarcascade_frontalface_default.xml')
   
 # Detect faces
 faces = face_cascade.detectMultiScale(gray, 1.5, 4)
