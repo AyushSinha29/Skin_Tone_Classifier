@@ -5,7 +5,7 @@ from PIL import Image
 from numpy import asarray
 
 img = cv2.imread('C:/Users/KIIT/Downloads/SkinColor/detectedImage.png') 
-#it is the path of the
+#it is the path of the extracted skin from Module 2.
 
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
