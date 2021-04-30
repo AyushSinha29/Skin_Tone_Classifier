@@ -3,7 +3,7 @@ import numpy as np
 
 minimumRange = np.array([0,133,77],np.uint8) #for min skin color Range
 maximumRange = np.array([235,173,127],np.uint8) #for maximum skin color Range
-img = cv2.imread("C:/Users/KIIT/Downloads/SkinColor/face.jpg")
+img = cv2.imread("C:/Users/--------/Face.jpg") #reads the detected image from module 1
 
 # change our image bgr to ycr using cvtcolor() method 
 
