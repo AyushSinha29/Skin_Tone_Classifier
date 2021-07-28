@@ -8,6 +8,9 @@ The repository contains three files - module 1 , module 2 and module 3 and the f
 Module 1:
 This module detects the face in the input image and saves the facial portion as  file in the same working directory.
 
+Module 1.a:
+This functions in the similar way as Module 1 with the additional feature of capturing real time photos for processing.
+
 Module 2:
 This module uses Face.jpg (from module 1) and detects only the skin area in the image and saves that as detectedImage.png in the working directory.
 
