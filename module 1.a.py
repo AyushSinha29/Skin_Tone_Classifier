@@ -1,6 +1,8 @@
 import cv2
 
-import cv2 
+print("Input 's' to capture")
+print("Input 'q' to quit")
+
 
 key = cv2. waitKey(1)
 webcam = cv2.VideoCapture(0)
