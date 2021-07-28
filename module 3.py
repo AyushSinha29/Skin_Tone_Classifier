@@ -1,13 +1,12 @@
 from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-import numpy as np
 import cv2 as cv
 from collections import Counter
-from skimage.color import rgb2lab, deltaE_cie76
 from PIL import Image
 from numpy import asarray
 
-img = cv.imread('C:/Users/---------/XYZ.jpg') #path of original image
+img = cv.imread('C:/Users/---------/XYZ.jpg')   #path of original image when using module 1
+img = cv.imread("D:/-------/captured_img.jpg")  #path of original image when using module 1.a
+
 image = cv.imread(r'C:\User-------------\detectedImage.png') #path of detected skin from module 2
 
 image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
