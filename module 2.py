@@ -14,5 +14,5 @@ YCRimage = cv2.cvtColor(img,cv2.COLOR_BGR2YCR_CB)
 skinArea = cv2.inRange(YCRimage,minimumRange,maximumRange)
 detectedSkin = cv2.bitwise_and(img, img, mask = skinArea)
 
-cv2.imwrite(r"C:\Users\KIIT\Downloads\SkinColor\detectedImage.png", 
+cv2.imwrite(r"C:\------\detectedImage.png", 
             np.hstack([detectedSkin]))
