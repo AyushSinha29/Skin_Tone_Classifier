@@ -89,7 +89,7 @@ elif 12619362>fc>10300000:    #mild range
 else:
     print("Dark")    
     cv.putText(img,'Skin Tone: DARK',(10,50), font, 0.5,(0,255,0),2)
-    cv.imshow("Result",image)
+    cv.imshow("Result",img)
     cv.waitKey(0)
         
 
